@@ -72,10 +72,9 @@
 	Notificaiton.ShowStickyError("Hello it's sticky error");
     ```
 	- Show info notification with setup:
-
-     ```C#
+    ```C#
     Notificaiton.Delay = 5000;
     Notificaiton.Type = NotificationType.Info;
     Notificaiton.Message = "Hello it's error notification with configuration and Show() only";
     Notificaiton.Show();
-     ```
+    ```
