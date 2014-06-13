@@ -68,16 +68,14 @@
     Notificaiton.ShowStickyWarning("Hello it's sticky warning");
     ```
 	- Show error notification with message and it'll be sticky (user must close it to hide):
-	    ```C#
-	    Notificaiton.ShowStickyError("Hello it's sticky error");
-        ```
+	```C#
+	Notificaiton.ShowStickyError("Hello it's sticky error");
+    ```
 	- Show info notification with setup:
 
-        ```C#
-        Notificaiton.Delay = 5000;
-        Notificaiton.Type = NotificationType.Info;
-        Notificaiton.Message = "Hello it's error notification with configuration and Show() only";
-        Notificaiton.Show();
-        ```
-	
-# License #
+     ```C#
+    Notificaiton.Delay = 5000;
+    Notificaiton.Type = NotificationType.Info;
+    Notificaiton.Message = "Hello it's error notification with configuration and Show() only";
+    Notificaiton.Show();
+     ```
