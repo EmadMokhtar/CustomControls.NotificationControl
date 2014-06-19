@@ -19,6 +19,8 @@
 
 **All resources injected to ASP.NET WebForm using WebResources.**
 
+**It can use its embded jQuery or project's jQuery.**
+
 # How to Install #
 
 1. Download the repository.
@@ -41,7 +43,7 @@
     ```
 	- Show info notification with message and 5000 milliseconds delay
 	```C#
-	Notificaiton.ShowInfo("Hello it's info". 5000);
+	Notificaiton.ShowInfo("Hello it's info", 5000);
     ```
 	- Show warning notification with message and default delay
 	```C#
@@ -49,7 +51,7 @@
     ```
 	- Show warning notification with message and 5000 milliseconds delay
 	```C#
-	Notificaiton.ShowWraning("Hello it's warning".5000);
+	Notificaiton.ShowWraning("Hello it's warning", 5000);
     ```
 	- Show error notification with message and default delay
 	```C#
@@ -57,7 +59,7 @@
     ```
 	- Show error notification with message and 5000 milliseconds delay
 	```C#
-	Notificaiton.ShowError("Hello it's error",5000);
+	Notificaiton.ShowError("Hello it's error", 5000);
     ```
 	- Show info notification with message and it'll be sticky (user must close it to hide):
 	```C#
@@ -75,6 +77,6 @@
     ```C#
     Notificaiton.Delay = 5000;
     Notificaiton.Type = NotificationType.Info;
-    Notificaiton.Message = "Hello it's error notification with configuration and Show() only";
+    Notificaiton.Message = "Hello it's info notification with configuration and Show() only";
     Notificaiton.Show();
     ```
