@@ -21,6 +21,10 @@
 
 **It can use its embded jQuery or project's jQuery.**
 
+# Demo #
+
+Demo can be found at http://notificaitoncontrol.azurewebsites.net/
+
 # How to Install #
 
 1. Download the repository.
